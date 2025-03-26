@@ -26,7 +26,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if ($stmt->execute()) {
         echo "<script>
                 alert('Student Added Successfully!');
-                window.location.href='students.php';
+                window.location.href='student.php';
               </script>";
     } else {
         echo "<script>
