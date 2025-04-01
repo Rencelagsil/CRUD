@@ -36,6 +36,6 @@ include 'db.php';
         <button type="submit">Add Student</button>
         
     </form>
-    <a href="student.php"><button>Back</button></a>
+    <a href="admin.php"><button>Back</button></a>
 </body>
 </html>

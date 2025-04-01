@@ -15,7 +15,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $sql = "UPDATE students SET first_name='$first_name', middle_name='$middle_name', last_name='$last_name', strand='$strand', level='$level' WHERE id=$id";
 
     if ($conn->query($sql) === TRUE) {
-        echo "<script>alert('Student Updated Successfully'); window.location.href='student.php';</script>";
+        echo "<script>alert('Student Updated Successfully'); window.location.href='admin.php';</script>";
     }
 }
 ?>
